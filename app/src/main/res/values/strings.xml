@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name" translatable="false">Evolution</string>
 
+    <!-- Welcome Strings -->
     <string name="welcome_title">Bem-vindo(a) ao meu projeto evolutivo</string>
     <string name="welcome_subtitle">Aqui você encontrará algumas implementações de features e componentes com foco em aperfeiçoar minhas habilidades e conhecimentos.</string>
-
     <string name="welcome_button">Conhecer</string>
+
+
+    <!-- Category Strings -->
+    <string name="components_label">Componentes</string>
+    <string name="features_label">Features</string>
 </resources>

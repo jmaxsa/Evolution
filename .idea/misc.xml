@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/ic_cubes_solid.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/shape_category_button.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/shape_meet_button.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/layout/activity_choose_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/layout/activity_main.xml" value="0.33" />

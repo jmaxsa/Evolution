@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Welcome Strings -->
     <string name="welcome_title">Welcome to my evolutionary project</string>
     <string name="welcome_subtitle">Here you will find some feature and component implementations focused on improving my skills and knowledge.</string>
     <string name="welcome_button">Meet</string>
+
+    <!-- Category Strings -->
+    <string name="components_label">Components</string>
+    <string name="features_label">Features</string>
 </resources>
