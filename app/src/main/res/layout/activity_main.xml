@@ -45,6 +45,7 @@
         app:layout_constraintTop_toBottomOf="@id/welcome_title"/>
 
     <Button
+        android:id="@+id/welcome_button"
         android:layout_width="match_parent"
         android:layout_height="@dimen/to_meet_button_height"
         android:text="@string/welcome_button"
