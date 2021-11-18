@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Welcome to my evolutionary project</string>
+    <string name="welcome_subtitle">Here you will find some feature and component implementations focused on improving my skills and knowledge.</string>
+</resources>
