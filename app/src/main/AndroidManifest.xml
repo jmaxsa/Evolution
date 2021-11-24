@@ -27,9 +27,9 @@
             android:theme="@style/Theme.Evolution.NoActionBar"/>
 
        <activity
-           android:name="br.com.jm.features.videocall.VideoCallActivity"
-           android:theme="@style/Theme.VideoCallUIKit.NoActionBar"
-           android:exported="true"/>
+           android:name=".ModulesListActivity"
+           android:exported="true"
+           android:theme="@style/Theme.Evolution.NoActionBar" />
 
         <meta-data
             android:name="preloaded_fonts"

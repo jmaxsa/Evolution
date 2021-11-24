@@ -7,8 +7,11 @@
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/ic_dice_solid.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/shape_category_button.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/shape_meet_button.xml" value="0.2638888888888889" />
+        <entry key="..\:/Users/jonat/Evolution/app/src/main/res/drawable/shape_module_item.xml" value="0.2740740740740741" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/layout/activity_choose_category.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/jonat/Evolution/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/jonat/Evolution/app/src/main/res/layout/activity_modules_list.xml" value="0.10655737704918032" />
+        <entry key="..\:/Users/jonat/Evolution/app/src/main/res/layout/item_module.xml" value="0.1" />
       </map>
     </option>
   </component>
