@@ -22,7 +22,7 @@
         </activity>
 
         <activity
-            android:name=".ChooseCategory"
+            android:name=".ui.categories.ChooseCategoryFragment"
             android:exported="true"
             android:theme="@style/Theme.Evolution.NoActionBar"/>
 

@@ -9,4 +9,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Evolution"
 include ':app'
-include ':features'
