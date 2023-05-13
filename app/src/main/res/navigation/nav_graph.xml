@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/introFragment">
 
     <fragment
         android:id="@+id/introFragment"
         android:name="br.com.jm.evolution.ui.intro.IntroFragment"
-        android:label="IntroFragment" />
+        android:label="IntroFragment"
+        tools:layout="@layout/fragment_intro" >
+        <action
+            android:id="@+id/action_introFragment_to_chooseCategoryFragment"
+            app:destination="@id/chooseCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseCategoryFragment"
+        android:name="br.com.jm.evolution.ui.categories.ChooseCategoryFragment"
+        android:label="ChooseCategoryFragment"
+        tools:layout="@layout/fragment_choose_category">
+        <action
+            android:id="@+id/action_chooseCategoryFragment_to_modulesListFragment"
+            app:destination="@id/modulesListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/modulesListFragment"
+        android:name="br.com.jm.evolution.modules.ModulesListFragment"
+        android:label="ModulesListFragment"
+        tools:layout="@layout/fragment_modules_list"/>
+
 </navigation>
