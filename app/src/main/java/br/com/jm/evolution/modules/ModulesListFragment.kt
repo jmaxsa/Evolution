@@ -5,14 +5,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
 import br.com.jm.evolution.MainActivity
 import br.com.jm.evolution.R
 import br.com.jm.evolution.databinding.FragmentModulesListBinding
+import org.koin.android.ext.android.inject
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class ModulesListFragment : Fragment() {
     private var _binding: FragmentModulesListBinding? = null
     private val binding get() = _binding!!
+
+    private val viewModel: ModuleListViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -31,6 +36,8 @@ class ModulesListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupRecyclerView()
+
+        viewModel.getModules()
     }
 
     private fun setupRecyclerView() {
