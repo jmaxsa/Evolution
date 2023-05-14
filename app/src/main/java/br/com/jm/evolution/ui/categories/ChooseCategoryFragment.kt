@@ -34,7 +34,7 @@ class ChooseCategoryFragment: Fragment() {
     }
 
     private fun setupComponents() {
-        binding.componentCategoryButton.setOnClickListener { it
+        binding.componentCategoryButton.setOnClickListener {
             it.findNavController().navigate(R.id.action_chooseCategoryFragment_to_modulesListFragment)
         }
     }
