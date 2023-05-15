@@ -24,6 +24,13 @@ class ModulesRepositoryImpl(
         )
     }
 
+    //TODO Create function to parse firestore result
+//    inline fun <T : Any> parseResponse(
+//        body: () -> T?
+//    ): T {
+//
+//    }
+
     companion object {
         private const val MODULE_ENTITY_NAME = "modules"
     }
