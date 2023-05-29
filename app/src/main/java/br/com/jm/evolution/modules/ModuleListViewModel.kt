@@ -8,6 +8,6 @@ class ModuleListViewModel(
 ): ViewModel() {
 
     fun getModules() {
-        modulesRepository.getModule()
+        modulesRepository.getEnableModules()
     }
 }
